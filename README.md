@@ -4,7 +4,6 @@
 This program begins with some text that do not affect the program. Comments are used to help people understand code by providing information within the code. Comments that span multiple lines are enclosed in a backslash star and end with a star backslash. A shorter comment that only affects the rest of the singular line are marked by two backslashes.
 ### Inputs
 This program uses import statements to accomplish some of the tasks of this program. The import java.io.IOException is used for errors. The capital IO litterally stands for Input Output. Therefore, this will be noted if there are any errors in the input or the output. The import java.nio.file.Paths is used to obtain the files that this program needs to function correctly. The import java.util.scanner lets users enter in data anywhere from small numbers to entire files like in this program that uses a text file. 
-### public class
 ### Packages
 Packages hold similar Java classes and default to the name of the program in lower case.
 ### Variables
