@@ -4,10 +4,10 @@
 This program begins with some text that do not affect the program. Comments are used to help people understand code by providing information within the code. Comments that span multiple lines are enclosed in a backslash star and end with a star backslash. A shorter comment that only affects the rest of the singular line are marked by two backslashes.
 ### Initial Identifiers
 Packages hold similar Java classes and default to the name of the program in lower case.
+
 This program uses import statements to accomplish some of the tasks of this program. The import java.io.IOException is used for errors. The capital IO litterally stands for Input Output. Therefore, this will be noted if there are any errors in the input or the output. The import java.nio.file.Paths is used to obtain the files that this program needs to function correctly. The import java.util.scanner lets users collect data anywhere from small numbers to entire files like in this program that uses a text file. 
-### Other
-A public class is a class that can be used by other classes. Class definitions are in use from the first brace to the last brace within the program. Java programs are defined by class definitions.
-The processing of a program begins at the main method. All Java programs have a main method preceded by public, static, and void.
+
+A public class is a class that can be used by other classes. Class definitions are in use from the first brace to the last brace within the program. Java programs are defined by class definitions. The processing of a program begins at the main method. All Java programs have a main method preceded by public, static, and void.
 ### Variables
 Since this program groups numbers into separate categories, several count variables are needed for the various categories. The count variables are integers initialized to zero by having a zero after the single equals sign. I chose count variables are named by letters such as count_a instead of numbers to not confuse readers into thinking count1 is a count variable that has a value of one. Each count variable represents a 25 number range beginning with zero since a zero is a possible test score. The variable count_a represents the lowest range 0-24, count_b represents the next range 25-49, and this continues all the way to count_h representing highest range, 175-200. The integer variable number_students is left unintialized. This means it does not start with a value like the count variables. Instead, the number_students variable will hold the first number retrieved from the text file later in the program. 
 ### Input
